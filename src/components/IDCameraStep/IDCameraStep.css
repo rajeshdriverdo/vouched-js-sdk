@@ -1,0 +1,126 @@
+.container {
+    position:relative;
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    width:100%
+}
+
+.container video {
+    position:relative;
+    z-index:0;
+}
+
+#overlay {
+    position:absolute;
+    top:10%;
+    z-index:1;
+    margin-top:3%;
+}
+
+#prevButton{
+    color: white;
+}
+
+#nextButton{
+    color: white;
+}
+
+#stopButton{
+    color: white;
+}
+
+#videoElement {
+    width: 100%;
+    margin-top: 0%;
+}
+
+#instruction{
+    font-size:15px;
+    font-weight: bold;
+    color:#2E159F;
+}
+
+@media all and (max-width: 576px){
+    #videoElement {
+        margin-top: 18%;
+    }
+    #buttonsContainer{
+        margin-top:5%;
+    }
+    #overlay {
+        margin-top: 15%;
+    }
+}
+
+@media all and (min-width: 576px){
+    #videoElement {
+        width: 100%;
+        margin-top: 0%;
+    }
+    #instruction{
+        font-size:20px;
+        font-weight: bold;
+        color:#2E159F;
+    }
+    #buttonsContainer{
+        margin-top:5%;
+    }
+    #overlay{
+        margin-top:0%;
+    }
+}
+
+@media all and (min-width: 768px){
+    #videoElement {
+        width: 80%;
+        margin-top: 0%;
+    }
+    #instruction{
+        font-size:20px;
+        font-weight: bold;
+        color:#2E159F;
+    }
+    #buttonsContainer{
+        margin-top:5%;
+    }
+    #overlay{
+        margin-top:0%;
+    }
+}
+
+@media all and (min-width: 992px){
+    #videoElement {
+        width: 60%;
+        margin-top: 0%;
+    }
+    #instruction{
+        font-size:20px;
+        font-weight: bold;
+        color:#2E159F;
+    }
+    #buttonsContainer{
+        margin-top:2%;
+    }
+    #overlay{
+        margin-top:0%;
+    }
+}
+
+@media all and (min-width: 1200px){
+    #videoElement {
+        width: 50%;
+        margin-top: 0%;
+    }
+    #instruction{
+        font-size:20px;
+        font-weight: bold;
+        color:#2E159F;
+    }
+    #buttonsContainer{
+        margin-top:2%;
+    }
+    #overlay{
+        margin-top:0%;
+    }
+}

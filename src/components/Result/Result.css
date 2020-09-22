@@ -1,0 +1,21 @@
+.resultMainDiv{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:90%;
+    margin-top: 5%;
+}
+
+.resultDiv{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin:0.5vw;
+}
+
+.resultP {
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+}
